@@ -10,5 +10,5 @@
 -author("zhangb").
 
 %% API
--export([sayHello/1]).
-sayHello(true) -> "Hello World!".
+-export([hello_world/0]).
+hello_world() -> io:fwrite("hello, world\n").
